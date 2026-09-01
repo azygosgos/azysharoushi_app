@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sub_roudoukijunhou",
+    "name": "労働基準法",
+    "order": 1
+  },
+  {
+    "id": "sub_roudouanzeneiseihou",
+    "name": "労働安全衛生法",
+    "order": 2
+  }
+]

@@ -1,0 +1,16 @@
+# このファイルはコードチェック(analyze)のルール設定です。
+# 初心者向けに、Flutter公式の推奨ルール(flutter_lints)をそのまま使います。
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: true

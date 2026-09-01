@@ -1,0 +1,110 @@
+[
+  {
+    "id": "src_egov",
+    "name": "e-Gov法令検索(労働基準法)",
+    "url": "https://laws.e-gov.go.jp/law/322AC0000000049",
+    "note": "条文の一次情報源。政府が運営する法令検索サービス。"
+  },
+  {
+    "id": "src_original",
+    "name": "アプリ作成者によるオリジナル確認問題",
+    "url": null,
+    "note": "市販教材・実際の過去問の転載ではなく、条文を根拠にPhase1の動作確認用として独自作成した問題です。実際の過去問データは別途、出典を明記のうえ追加予定です。"
+  },
+  {
+    "id": "src_r7_exam",
+    "name": "第57回(令和7年度)社会保険労務士試験 択一式試験問題及び正答(公式)",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "全国社会保険労務士会連合会 試験センター公表の実際の過去問題・正答。利用者が公式PDFをアップロードし、AIが直接読み取って収録した。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h17_exam",
+    "name": "第37回(平成17年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi17.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料(合格基準及び正答について)の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h18_exam",
+    "name": "第38回(平成18年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi18.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h19_exam",
+    "name": "第39回(平成19年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi19.zip、及び補足の公式正答資料 https://kyoikukunren.com/sharo/39seito.pdf)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h20_exam",
+    "name": "第40回(平成20年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi20.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h21_exam",
+    "name": "第41回(平成21年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi21.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h22_exam",
+    "name": "第42回(平成22年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi22.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h23_exam",
+    "name": "第43回(平成23年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi23.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h24_exam",
+    "name": "第44回(平成24年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi24.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h25_exam",
+    "name": "第45回(平成25年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi25.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h26_exam",
+    "name": "第46回(平成26年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi26.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h27_exam",
+    "name": "第47回(平成27年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi27.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h28_exam",
+    "name": "第48回(平成28年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi28.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h29_exam",
+    "name": "第49回(平成29年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "当時公表された公式の問題冊子(択一式)及び正答資料を、年度別にまとめた公開アーカイブ(取得元: http://www.kakomon.info/syaroushi/syaroushi29.zip)経由で入手し、AIがPDFの画像を直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_h30_exam",
+    "name": "第50回(平成30年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "資格予備校サイト(agaroot.jp)経由で入手した公式の問題冊子(択一式)及び正答資料をAIが直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  },
+  {
+    "id": "src_r1_exam",
+    "name": "第51回(令和元年度)社会保険労務士試験 択一式試験問題及び正答",
+    "url": "https://www.sharosi-siken.or.jp/results/",
+    "note": "資格予備校サイト(agaroot.jp)経由で入手した公式の問題冊子(択一式)及び正答資料をAIが直接読み取って収録した。正答は同時収録の公式正答資料の一覧表に基づく。解説はオリジナル(市販教材からの転載ではない)。"
+  }
+]

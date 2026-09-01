@@ -1,0 +1,16 @@
+# Flutter/Dartの自動生成物
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+web/flutter_bootstrap.js
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+
+# Hiveのローカルデータ(端末ごとに生成されるため管理しない)
+*.hive
+*.lock

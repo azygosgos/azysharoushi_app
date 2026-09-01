@@ -1,0 +1,37 @@
+[
+  {
+    "id": "tip_001",
+    "title": "労働基準法 第35条",
+    "body": "休日と休暇は異なる。\n\n休日：最初から労働義務がない日\n休暇：本来労働義務がある日に、その義務を免除するもの",
+    "relatedArticleId": "art_35",
+    "relatedQuestionId": "q003"
+  },
+  {
+    "id": "tip_002",
+    "title": "労働基準法 第37条",
+    "body": "深夜労働(22時〜5時)の割増率は25%以上。\n\n休日労働の35%と入れ替えるひっかけ問題が定番なので、数字とセットで覚える。",
+    "relatedArticleId": "art_37",
+    "relatedQuestionId": "q011"
+  },
+  {
+    "id": "tip_003",
+    "title": "労働基準法 第32条",
+    "body": "法定労働時間は「1週40時間・1日8時間」が原則。\n\n特例措置対象事業場の44時間と混同しないよう注意。",
+    "relatedArticleId": "art_32",
+    "relatedQuestionId": "q005"
+  },
+  {
+    "id": "tip_004",
+    "title": "労働基準法 第39条",
+    "body": "年次有給休暇の付与要件は「6か月継続勤務」+「8割以上出勤」。\n\n満たせば付与日数は10労働日。",
+    "relatedArticleId": "art_39",
+    "relatedQuestionId": "q012"
+  },
+  {
+    "id": "tip_005",
+    "title": "労働基準法 第20条",
+    "body": "解雇予告は原則30日前。\n\n平均賃金を支払った日数分だけ、この30日を短縮できる。",
+    "relatedArticleId": "art_20",
+    "relatedQuestionId": "q014"
+  }
+]

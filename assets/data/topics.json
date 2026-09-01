@@ -1,0 +1,254 @@
+[
+  {
+    "id": "t_kyujitsu",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "休日",
+    "importance": "s"
+  },
+  {
+    "id": "t_roudou_jikan",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "労働時間",
+    "importance": "s"
+  },
+  {
+    "id": "t_kyukei",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "休憩",
+    "importance": "a"
+  },
+  {
+    "id": "t_warimashi_chingin",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "割増賃金",
+    "importance": "s"
+  },
+  {
+    "id": "t_yukyu_kyuka",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "年次有給休暇",
+    "importance": "s"
+  },
+  {
+    "id": "t_kaiko_yokoku",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "解雇の予告",
+    "importance": "a"
+  },
+  {
+    "id": "t_chingin_gensoku",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "賃金支払の原則",
+    "importance": "a"
+  },
+  {
+    "id": "t_soko",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "総則(労働者・賃金の定義等)",
+    "importance": "a"
+  },
+  {
+    "id": "t_heikin_chingin",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "平均賃金",
+    "importance": "a"
+  },
+  {
+    "id": "t_roudou_keiyaku",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "労働契約",
+    "importance": "b"
+  },
+  {
+    "id": "t_36kyoutei",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "時間外・休日労働協定(36協定)",
+    "importance": "s"
+  },
+  {
+    "id": "t_shugyo_kisoku",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "就業規則",
+    "importance": "a"
+  },
+  {
+    "id": "t_henkei_roudou_jikan",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "変形労働時間制・裁量労働制",
+    "importance": "a"
+  },
+  {
+    "id": "t_josei_nenshousha",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "年少者・妊産婦等の保護",
+    "importance": "a"
+  },
+  {
+    "id": "t_tokurei_sochi",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "特例措置対象事業場",
+    "importance": "b"
+  },
+  {
+    "id": "t_anzeneisei_kyouiku",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "安全衛生教育",
+    "importance": "a"
+  },
+  {
+    "id": "t_kenkoshindan_anei",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "健康診断",
+    "importance": "a"
+  },
+  {
+    "id": "t_eisei_kanri_taisei",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "衛生管理体制(衛生管理者・産業医)",
+    "importance": "a"
+  },
+  {
+    "id": "t_roudou_jouken_meiji",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "労働条件の明示",
+    "importance": "a"
+  },
+  {
+    "id": "t_anzeneisei_kaizen_kantoku",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "安全衛生改善計画・監督等",
+    "importance": "b"
+  },
+  {
+    "id": "t_motokata_jigyousha",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "元方事業者等の講ずべき措置",
+    "importance": "a"
+  },
+  {
+    "id": "t_keikaku_todokede",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "計画の届出",
+    "importance": "b"
+  },
+  {
+    "id": "t_chingin_teigi",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "賃金の意義・該当性",
+    "importance": "a"
+  },
+  {
+    "id": "t_kiroku_hozon",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "記録の保存",
+    "importance": "b"
+  },
+  {
+    "id": "t_soukatsu_anzeneisei_kanrisha",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "総括安全衛生管理者",
+    "importance": "a"
+  },
+  {
+    "id": "t_haken_anzeneisei",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "派遣労働者と安全衛生管理体制",
+    "importance": "a"
+  },
+  {
+    "id": "t_kantoku_kikan_zassoku",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "監督機関・雑則・罰則",
+    "importance": "b"
+  },
+  {
+    "id": "t_houkokusho_teishutsu",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "所轄労働基準監督署長への報告書提出",
+    "importance": "b"
+  },
+  {
+    "id": "t_kishukusha",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "寄宿舎",
+    "importance": "c"
+  },
+  {
+    "id": "t_anzen_eisei_iinkai",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "安全委員会・衛生委員会",
+    "importance": "a"
+  },
+  {
+    "id": "t_mensetsu_shidou",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "長時間労働者の面接指導",
+    "importance": "a"
+  },
+  {
+    "id": "t_shuroshi_seigen",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "就業制限業務・技能講習",
+    "importance": "b"
+  },
+  {
+    "id": "t_roushi_kyoutei_iinkai",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "労使協定・労使委員会",
+    "importance": "a"
+  },
+  {
+    "id": "t_shourei_daimei",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "労働安全衛生法関係省令の名称",
+    "importance": "c"
+  },
+  {
+    "id": "t_chuumonsha_taiyosha",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "注文者・機械等貸与者等の講ずべき措置",
+    "importance": "b"
+  },
+  {
+    "id": "t_seizou_kyoka",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "機械等の製造許可・検査",
+    "importance": "b"
+  },
+  {
+    "id": "t_anei_soko",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "労働安全衛生法の総則",
+    "importance": "b"
+  },
+  {
+    "id": "t_kiken_boushi_kijun",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "労働者の危険又は健康障害を防止するための措置",
+    "importance": "a"
+  },
+  {
+    "id": "t_sagyoshuninsha",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "作業主任者制度",
+    "importance": "b"
+  },
+  {
+    "id": "t_teiki_jishu_kensa",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "機械等の定期自主検査",
+    "importance": "b"
+  },
+  {
+    "id": "t_stress_check",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "ストレスチェック制度",
+    "importance": "a"
+  },
+  {
+    "id": "t_jouto_seigen",
+    "subjectId": "sub_roudouanzeneiseihou",
+    "name": "譲渡等の制限(規格・安全装置)",
+    "importance": "b"
+  }
+]
