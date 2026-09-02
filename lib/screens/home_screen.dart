@@ -7,16 +7,13 @@ import '../providers/repository_providers.dart';
 import '../widgets/menu_button.dart';
 import '../widgets/stat_card.dart';
 import 'article_list_screen.dart';
-import 'question_list_screen.dart';
 import 'question_screen.dart';
 import 'quiz_start_screen.dart';
+import 'subject_list_screen.dart';
 import 'today_review_screen.dart';
 
-/// 労働基準法の科目ID。Phase1では科目がこれ1つだけなので直接指定する。
-/// (将来、複数科目に対応するときは科目選択画面を挟む形に変更する)
-const String kRoudouKijunhouSubjectId = 'sub_roudoukijunhou';
-
-/// 労働基準法の法律ID。科目IDと同様、Phase2時点では法律がこれ1つだけなので直接指定する。
+/// 労働基準法の法律ID。法律は今のところこれ1つだけなので直接指定する。
+/// (将来、法律が増えたら過去問演習と同様に法律選択画面を挟む形に変更する)
 const String kRoudouKijunhouLawId = 'law_roudoukijunhou';
 
 class HomeScreen extends ConsumerStatefulWidget {
@@ -185,12 +182,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               icon: Icons.edit_note,
               onPressed: () {
                 Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (_) => const QuestionListScreen(
-                      subjectId: kRoudouKijunhouSubjectId,
-                      subjectName: '労働基準法',
-                    ),
-                  ),
+                  MaterialPageRoute(builder: (_) => const SubjectListScreen()),
                 );
               },
             ),
