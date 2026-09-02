@@ -250,5 +250,11 @@
     "subjectId": "sub_roudouanzeneiseihou",
     "name": "譲渡等の制限(規格・安全装置)",
     "importance": "b"
+  },
+  {
+    "id": "t_digital_chingin",
+    "subjectId": "sub_roudoukijunhou",
+    "name": "賃金のデジタル払い",
+    "importance": "b"
   }
 ]
