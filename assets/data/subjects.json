@@ -8,5 +8,10 @@
     "id": "sub_roudouanzeneiseihou",
     "name": "労働安全衛生法",
     "order": 2
+  },
+  {
+    "id": "sub_rousaihokenhou",
+    "name": "労働者災害補償保険法",
+    "order": 3
   }
 ]

@@ -256,5 +256,107 @@
     "subjectId": "sub_roudoukijunhou",
     "name": "賃金のデジタル払い",
     "importance": "b"
+  },
+  {
+    "id": "t_rousai_tekiyou_tokubetsu",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "適用事業・特別加入",
+    "importance": "s"
+  },
+  {
+    "id": "t_rousai_gyoumu_tuukin_nintei",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "業務災害・通勤災害の認定",
+    "importance": "s"
+  },
+  {
+    "id": "t_rousai_kyuufukiso_nichigaku",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "給付基礎日額",
+    "importance": "a"
+  },
+  {
+    "id": "t_rousai_ryouyou",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "療養補償給付",
+    "importance": "a"
+  },
+  {
+    "id": "t_rousai_kyuugyou",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "休業補償給付",
+    "importance": "s"
+  },
+  {
+    "id": "t_rousai_shoubyou_nenkin",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "傷病補償年金",
+    "importance": "a"
+  },
+  {
+    "id": "t_rousai_shougai",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "障害補償給付",
+    "importance": "a"
+  },
+  {
+    "id": "t_rousai_kaigo",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "介護補償給付",
+    "importance": "a"
+  },
+  {
+    "id": "t_rousai_izoku",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "遺族補償給付",
+    "importance": "s"
+  },
+  {
+    "id": "t_rousai_sousai",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "葬祭料",
+    "importance": "b"
+  },
+  {
+    "id": "t_rousai_tokubetsu_shikyuukin",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "特別支給金",
+    "importance": "a"
+  },
+  {
+    "id": "t_rousai_jikou",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "時効",
+    "importance": "a"
+  },
+  {
+    "id": "t_rousai_dai3sha",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "第三者行為災害・損害賠償との調整",
+    "importance": "a"
+  },
+  {
+    "id": "t_rousai_tanengifu_chousei",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "他の年金給付との併給調整",
+    "importance": "a"
+  },
+  {
+    "id": "t_rousai_fukushi_jigyou",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "社会復帰促進等事業",
+    "importance": "b"
+  },
+  {
+    "id": "t_rousai_nikai_kenshin",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "二次健康診断等給付",
+    "importance": "b"
+  },
+  {
+    "id": "t_rousai_hiyou_choushuu",
+    "subjectId": "sub_rousaihokenhou",
+    "name": "費用徴収・不正受給への対応",
+    "importance": "b"
   }
 ]
