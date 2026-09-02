@@ -6,6 +6,7 @@ import '../providers/home_providers.dart';
 import '../providers/repository_providers.dart';
 import '../widgets/menu_button.dart';
 import '../widgets/stat_card.dart';
+import 'article_list_screen.dart';
 import 'question_list_screen.dart';
 import 'question_screen.dart';
 import 'quiz_start_screen.dart';
@@ -14,6 +15,9 @@ import 'today_review_screen.dart';
 /// 労働基準法の科目ID。Phase1では科目がこれ1つだけなので直接指定する。
 /// (将来、複数科目に対応するときは科目選択画面を挟む形に変更する)
 const String kRoudouKijunhouSubjectId = 'sub_roudoukijunhou';
+
+/// 労働基準法の法律ID。科目IDと同様、Phase2時点では法律がこれ1つだけなので直接指定する。
+const String kRoudouKijunhouLawId = 'law_roudoukijunhou';
 
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});
@@ -204,7 +208,16 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             MenuButton(
               label: '法律・条文',
               icon: Icons.menu_book,
-              onPressed: () => _showComingSoon('法律・条文'),
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) => const ArticleListScreen(
+                      lawId: kRoudouKijunhouLawId,
+                      lawName: '労働基準法',
+                    ),
+                  ),
+                );
+              },
             ),
             const SizedBox(height: 8),
             MenuButton(

@@ -72,7 +72,7 @@ class Question {
       ),
       questionText: json['questionText'] as String,
       choices: (json['choices'] as List<dynamic>? ?? [])
-          .map((e) => Choice.fromJson(e as Map<String, dynamic>))
+          .map((e) => Choice.fromJson(Map<String, dynamic>.from(e as Map)))
           .toList(),
       correctAnswer: json['correctAnswer'] as String,
       explanation: json['explanation'] as String? ?? '',

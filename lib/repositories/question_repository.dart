@@ -25,4 +25,8 @@ class QuestionRepository {
   List<Question> getBySubject(String subjectId) {
     return getAll().where((q) => q.subjectId == subjectId).toList();
   }
+
+  List<Question> getByRelatedArticle(String articleId) {
+    return getAll().where((q) => q.relatedArticleIds.contains(articleId)).toList();
+  }
 }
