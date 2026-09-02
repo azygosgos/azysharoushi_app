@@ -8,6 +8,7 @@ import '../widgets/menu_button.dart';
 import '../widgets/stat_card.dart';
 import 'question_list_screen.dart';
 import 'question_screen.dart';
+import 'quiz_start_screen.dart';
 import 'today_review_screen.dart';
 
 /// 労働基準法の科目ID。Phase1では科目がこれ1つだけなので直接指定する。
@@ -186,6 +187,16 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                       subjectName: '労働基準法',
                     ),
                   ),
+                );
+              },
+            ),
+            const SizedBox(height: 8),
+            MenuButton(
+              label: '〇×クイズ',
+              icon: Icons.check_circle_outline,
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (_) => const QuizStartScreen()),
                 );
               },
             ),

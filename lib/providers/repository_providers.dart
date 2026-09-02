@@ -5,6 +5,7 @@ import '../repositories/daily_tip_repository.dart';
 import '../repositories/favorite_repository.dart';
 import '../repositories/note_repository.dart';
 import '../repositories/question_repository.dart';
+import '../repositories/quiz_item_repository.dart';
 import '../repositories/reference_repository.dart';
 import '../repositories/review_schedule_repository.dart';
 import '../services/backup_service.dart';
@@ -29,6 +30,10 @@ final questionRepositoryProvider = Provider<QuestionRepository>((ref) {
 
 final attemptRepositoryProvider = Provider<AttemptRepository>((ref) {
   return AttemptRepository();
+});
+
+final quizItemRepositoryProvider = Provider<QuizItemRepository>((ref) {
+  return QuizItemRepository();
 });
 
 final favoriteRepositoryProvider = Provider<FavoriteRepository>((ref) {

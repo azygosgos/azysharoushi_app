@@ -15,7 +15,7 @@ import '../constants/hive_boxes.dart';
 ///    (これをしないと、次回起動時に新しいデータが反映されません)
 class DataLoaderService {
   /// データを変更したら、この数字を必ず+1してください。
-  static const int currentDataVersion = 22;
+  static const int currentDataVersion = 23;
 
   Future<void> loadIfNeeded() async {
     final prefs = await SharedPreferences.getInstance();
@@ -32,6 +32,7 @@ class DataLoaderService {
     await _loadJsonIntoBox('assets/data/laws.json', HiveBoxes.laws);
     await _loadJsonIntoBox('assets/data/articles.json', HiveBoxes.articles);
     await _loadJsonIntoBox('assets/data/questions.json', HiveBoxes.questions);
+    await _loadJsonIntoBox('assets/data/quiz_items.json', HiveBoxes.quizItems);
     await _loadJsonIntoBox('assets/data/daily_tips.json', HiveBoxes.dailyTips);
 
     await prefs.setInt(PrefKeys.dataVersion, currentDataVersion);

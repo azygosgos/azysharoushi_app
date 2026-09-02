@@ -29,5 +29,6 @@ flutter:
     - assets/data/laws.json
     - assets/data/articles.json
     - assets/data/questions.json
+    - assets/data/quiz_items.json
     - assets/data/daily_tips.json
     - assets/data/sources.json

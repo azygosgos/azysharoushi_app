@@ -10,6 +10,7 @@ class HiveBoxes {
   static const laws = 'laws_box';
   static const articles = 'articles_box';
   static const questions = 'questions_box';
+  static const quizItems = 'quiz_items_box';
   static const dailyTips = 'daily_tips_box';
   static const sources = 'sources_box';
 
@@ -26,6 +27,7 @@ class HiveBoxes {
     laws,
     articles,
     questions,
+    quizItems,
     dailyTips,
     sources,
     attempts,
