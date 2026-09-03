@@ -7,6 +7,7 @@ import '../providers/repository_providers.dart';
 import '../widgets/menu_button.dart';
 import '../widgets/stat_card.dart';
 import 'article_list_screen.dart';
+import 'backup_screen.dart';
 import 'question_screen.dart';
 import 'quiz_start_screen.dart';
 import 'subject_list_screen.dart';
@@ -228,6 +229,16 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               label: '学習履歴',
               icon: Icons.bar_chart,
               onPressed: () => _showComingSoon('学習履歴'),
+            ),
+            const SizedBox(height: 8),
+            MenuButton(
+              label: 'バックアップ',
+              icon: Icons.backup,
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (_) => const BackupScreen()),
+                );
+              },
             ),
           ],
         ),
