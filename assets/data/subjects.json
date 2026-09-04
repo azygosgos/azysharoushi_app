@@ -13,5 +13,10 @@
     "id": "sub_rousaihokenhou",
     "name": "労働者災害補償保険法",
     "order": 3
+  },
+  {
+    "id": "sub_koyouhokenhou",
+    "name": "雇用保険法",
+    "order": 4
   }
 ]

@@ -358,5 +358,119 @@
     "subjectId": "sub_rousaihokenhou",
     "name": "費用徴収・不正受給への対応",
     "importance": "b"
+  },
+  {
+    "id": "t_koyou_hihokensha",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "被保険者",
+    "importance": "a"
+  },
+  {
+    "id": "t_koyou_jimu_todokede",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "雇用保険の事務手続き",
+    "importance": "b"
+  },
+  {
+    "id": "t_koyou_rishoku_shomeisho",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "離職証明書・離職票",
+    "importance": "b"
+  },
+  {
+    "id": "t_koyou_kihon_teate_nintei",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "基本手当・失業の認定",
+    "importance": "a"
+  },
+  {
+    "id": "t_koyou_shotei_kyufu_nissu",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "所定給付日数",
+    "importance": "s"
+  },
+  {
+    "id": "t_koyou_kyufu_seigen",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "給付制限",
+    "importance": "a"
+  },
+  {
+    "id": "t_koyou_tokutei_jukyu",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "特定受給資格者",
+    "importance": "a"
+  },
+  {
+    "id": "t_koyou_encho_kyufu",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "延長給付",
+    "importance": "b"
+  },
+  {
+    "id": "t_koyou_gikou_shukuhaku_teate",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "技能習得手当・寄宿手当・傷病手当",
+    "importance": "b"
+  },
+  {
+    "id": "t_koyou_tanki_tokurei",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "短期雇用特例被保険者",
+    "importance": "c"
+  },
+  {
+    "id": "t_koyou_hiyatoi_kyufu",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "日雇労働被保険者・日雇労働求職者給付金",
+    "importance": "c"
+  },
+  {
+    "id": "t_koyou_shushoku_sokushin",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "就職促進給付",
+    "importance": "b"
+  },
+  {
+    "id": "t_koyou_saishushoku_teate",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "再就職手当",
+    "importance": "a"
+  },
+  {
+    "id": "t_koyou_kounenrei_kyushokusha",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "高年齢求職者給付金",
+    "importance": "a"
+  },
+  {
+    "id": "t_koyou_kounenrei_keizoku",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "高年齢雇用継続給付",
+    "importance": "a"
+  },
+  {
+    "id": "t_koyou_kyoiku_kunren_kyufu",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "教育訓練給付",
+    "importance": "a"
+  },
+  {
+    "id": "t_koyou_ikuji_kaigo_kyufu",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "育児休業給付・介護休業給付",
+    "importance": "a"
+  },
+  {
+    "id": "t_koyou_sanjigyou",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "雇用保険二事業・雇用保険三事業",
+    "importance": "b"
+  },
+  {
+    "id": "t_koyou_seido_ippan",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "雇用保険制度全般",
+    "importance": "b"
   }
 ]
