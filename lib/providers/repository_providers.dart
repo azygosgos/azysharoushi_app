@@ -9,6 +9,7 @@ import '../repositories/quiz_item_repository.dart';
 import '../repositories/reference_repository.dart';
 import '../repositories/review_schedule_repository.dart';
 import '../services/backup_service.dart';
+import '../services/cloud_sync_service.dart';
 import '../services/daily_tip_service.dart';
 import '../services/review_service.dart';
 
@@ -67,6 +68,10 @@ final backupServiceProvider = Provider<BackupService>((ref) {
     noteRepository: ref.watch(noteRepositoryProvider),
     favoriteRepository: ref.watch(favoriteRepositoryProvider),
   );
+});
+
+final cloudSyncServiceProvider = Provider<CloudSyncService>((ref) {
+  return CloudSyncService();
 });
 
 /// 何かデータが更新された(回答した・メモを保存した等)ときにこの値を+1することで、

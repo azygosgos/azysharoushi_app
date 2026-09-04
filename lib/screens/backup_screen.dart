@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../providers/repository_providers.dart';
+import '../services/cloud_sync_service.dart';
 
 /// バックアップの作成・復元を行う画面。
 ///
@@ -23,6 +24,13 @@ class BackupScreen extends ConsumerStatefulWidget {
 
 class _BackupScreenState extends ConsumerState<BackupScreen> {
   bool _busy = false;
+  final _passphraseController = TextEditingController();
+
+  @override
+  void dispose() {
+    _passphraseController.dispose();
+    super.dispose();
+  }
 
   Future<void> _exportBackup() async {
     setState(() => _busy = true);
@@ -81,6 +89,58 @@ class _BackupScreenState extends ConsumerState<BackupScreen> {
     }
   }
 
+  Future<void> _uploadToCloud() async {
+    final passphrase = _passphraseController.text.trim();
+    if (passphrase.isEmpty) return;
+
+    setState(() => _busy = true);
+    try {
+      final backupService = ref.read(backupServiceProvider);
+      final cloudSyncService = ref.read(cloudSyncServiceProvider);
+      final data = backupService.exportData();
+      await cloudSyncService.upload(passphrase, data);
+
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('アップロードしました。別の端末でこの合言葉を入力してください')),
+      );
+    } on CloudSyncException catch (e) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(e.message)));
+    } finally {
+      if (mounted) setState(() => _busy = false);
+    }
+  }
+
+  Future<void> _downloadFromCloud() async {
+    final passphrase = _passphraseController.text.trim();
+    if (passphrase.isEmpty) return;
+
+    setState(() => _busy = true);
+    try {
+      final backupService = ref.read(backupServiceProvider);
+      final cloudSyncService = ref.read(cloudSyncServiceProvider);
+      final data = await cloudSyncService.download(passphrase);
+      await backupService.importData(data);
+
+      if (!mounted) return;
+      bumpDataRevision(ref);
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('クラウドから復元しました')),
+      );
+    } on BackupNotFoundException {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('この合言葉のバックアップが見つかりません')),
+      );
+    } on CloudSyncException catch (e) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(e.message)));
+    } finally {
+      if (mounted) setState(() => _busy = false);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -119,6 +179,38 @@ class _BackupScreenState extends ConsumerState<BackupScreen> {
               icon: const Icon(Icons.upload),
               label: const Text('バックアップから復元'),
               onPressed: _busy ? null : _importBackup,
+              style: OutlinedButton.styleFrom(minimumSize: const Size.fromHeight(48)),
+            ),
+            const SizedBox(height: 32),
+            _sectionTitle('合言葉でスマホ・iPadと共有'),
+            const SizedBox(height: 6),
+            const Text(
+              '好きな合言葉を決めて「クラウドにアップロード」すると、別の端末で'
+              '同じ合言葉を入力して「クラウドから読み込む」だけでデータを復元できます。'
+              'ファイルのダウンロード・アップロードは不要です。\n\n'
+              '(合言葉を知っている人だけがデータを読み書きできますが、強い暗号化は'
+              'していないため、他人に推測されにくい合言葉にしてください)',
+            ),
+            const SizedBox(height: 8),
+            TextField(
+              controller: _passphraseController,
+              decoration: const InputDecoration(
+                labelText: '合言葉',
+                border: OutlineInputBorder(),
+              ),
+            ),
+            const SizedBox(height: 8),
+            FilledButton.icon(
+              icon: const Icon(Icons.cloud_upload),
+              label: const Text('クラウドにアップロード'),
+              onPressed: _busy ? null : _uploadToCloud,
+              style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(48)),
+            ),
+            const SizedBox(height: 8),
+            OutlinedButton.icon(
+              icon: const Icon(Icons.cloud_download),
+              label: const Text('クラウドから読み込む'),
+              onPressed: _busy ? null : _downloadFromCloud,
               style: OutlinedButton.styleFrom(minimumSize: const Size.fromHeight(48)),
             ),
             if (_busy) ...[
