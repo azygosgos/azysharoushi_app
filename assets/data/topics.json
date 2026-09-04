@@ -472,5 +472,11 @@
     "subjectId": "sub_koyouhokenhou",
     "name": "雇用保険制度全般",
     "importance": "b"
+  },
+  {
+    "id": "t_koyou_tokurei_kounenrei_hihokensha",
+    "subjectId": "sub_koyouhokenhou",
+    "name": "特例高年齢被保険者(マルチジョブホルダー制度)",
+    "importance": "b"
   }
 ]
