@@ -478,5 +478,53 @@
     "subjectId": "sub_koyouhokenhou",
     "name": "特例高年齢被保険者(マルチジョブホルダー制度)",
     "importance": "b"
+  },
+  {
+    "id": "t_choushu_tekiyou",
+    "subjectId": "sub_choushuuhou",
+    "name": "適用事業・保険関係の成立と一括",
+    "importance": "a"
+  },
+  {
+    "id": "t_choushu_hokenryo_santei",
+    "subjectId": "sub_choushuuhou",
+    "name": "労働保険料の算定(賃金総額・保険料率)",
+    "importance": "s"
+  },
+  {
+    "id": "t_choushu_tokusoku_entaikin",
+    "subjectId": "sub_choushuuhou",
+    "name": "督促・延滞金・滞納処分",
+    "importance": "a"
+  },
+  {
+    "id": "t_choushu_jimu_kumiai",
+    "subjectId": "sub_choushuuhou",
+    "name": "労働保険事務組合",
+    "importance": "a"
+  },
+  {
+    "id": "t_choushu_nofu_tetsuzuki",
+    "subjectId": "sub_choushuuhou",
+    "name": "概算保険料・確定保険料の申告納付手続",
+    "importance": "s"
+  },
+  {
+    "id": "t_choushu_tokurei_kyufu",
+    "subjectId": "sub_choushuuhou",
+    "name": "特例納付保険料・特別保険料",
+    "importance": "b"
+  },
+  {
+    "id": "t_choushu_seido_ippan",
+    "subjectId": "sub_choushuuhou",
+    "name": "労働保険徴収法制度全般",
+    "importance": "b"
+  },
+  {
+    "id": "t_choushu_zantei_ninin_tekiyou",
+    "subjectId": "sub_choushuuhou",
+    "name": "暫定任意適用事業の保険関係の成立・消滅",
+    "importance": "b"
   }
 ]
