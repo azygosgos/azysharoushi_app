@@ -526,5 +526,11 @@
     "subjectId": "sub_choushuuhou",
     "name": "暫定任意適用事業の保険関係の成立・消滅",
     "importance": "b"
+  },
+  {
+    "id": "t_choushu_merit_seido",
+    "subjectId": "sub_choushuuhou",
+    "name": "メリット制",
+    "importance": "a"
   }
 ]
