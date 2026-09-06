@@ -23,5 +23,10 @@
     "id": "sub_choushuuhou",
     "name": "労働保険徴収法",
     "order": 5
+  },
+  {
+    "id": "sub_kenkouhokenhou",
+    "name": "健康保険法",
+    "order": 6
   }
 ]

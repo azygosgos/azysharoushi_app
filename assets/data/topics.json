@@ -532,5 +532,65 @@
     "subjectId": "sub_choushuuhou",
     "name": "メリット制",
     "importance": "a"
+  },
+  {
+    "id": "t_kenpo_hokensha",
+    "subjectId": "sub_kenkouhokenhou",
+    "name": "保険者・健康保険組合",
+    "importance": "a"
+  },
+  {
+    "id": "t_kenpo_tekiyou",
+    "subjectId": "sub_kenkouhokenhou",
+    "name": "適用事業所・被保険者資格",
+    "importance": "s"
+  },
+  {
+    "id": "t_kenpo_hifuyousha",
+    "subjectId": "sub_kenkouhokenhou",
+    "name": "被扶養者",
+    "importance": "s"
+  },
+  {
+    "id": "t_kenpo_hokenryo",
+    "subjectId": "sub_kenkouhokenhou",
+    "name": "保険料",
+    "importance": "s"
+  },
+  {
+    "id": "t_kenpo_ryouyou_kyuufu",
+    "subjectId": "sub_kenkouhokenhou",
+    "name": "療養の給付・保険医療機関",
+    "importance": "s"
+  },
+  {
+    "id": "t_kenpo_genkin_kyuufu",
+    "subjectId": "sub_kenkouhokenhou",
+    "name": "現金給付(傷病手当金・出産手当金等)",
+    "importance": "s"
+  },
+  {
+    "id": "t_kenpo_kougaku_ryouyouhi",
+    "subjectId": "sub_kenkouhokenhou",
+    "name": "高額療養費・その他の保険給付",
+    "importance": "a"
+  },
+  {
+    "id": "t_kenpo_hiyatoi_tokurei",
+    "subjectId": "sub_kenkouhokenhou",
+    "name": "日雇特例被保険者",
+    "importance": "b"
+  },
+  {
+    "id": "t_kenpo_fufuku_zassoku",
+    "subjectId": "sub_kenkouhokenhou",
+    "name": "不服申立て・雑則・罰則",
+    "importance": "b"
+  },
+  {
+    "id": "t_kenpo_koureisha_iryou",
+    "subjectId": "sub_kenkouhokenhou",
+    "name": "高齢者医療制度との関係",
+    "importance": "a"
   }
 ]
